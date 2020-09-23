@@ -1,0 +1,18 @@
+.button {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  border: 0;
+  background-color: $subColor;
+  transition: background-color 0.15s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $mainColor;
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

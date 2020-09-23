@@ -1,0 +1,21 @@
+.search-history {
+  margin: 0 0 20px 10px;
+
+  &__title {
+    margin-right: 50px;
+    white-space: nowrap;
+
+    &:hover {
+      color: $subColor;
+    }
+  }
+
+  &__list {
+    list-style-type: circle;
+    margin-left: 30px;
+  }
+
+  &__link {
+    color: $subColor;
+  }
+}
